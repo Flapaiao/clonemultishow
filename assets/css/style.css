@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'glbOpenSans', 'Open Sans', 'Avenir Next', Avenir, Inter, -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Helvetica, Arial, Noto, Ubuntu, 'Segoe UI', sans-serif;
+}
+
+.img {
+    max-width: 1380px;
+    border-radius: 10px;
+    margin: 120px 50px 50px 60px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+
+.topoLinks {
+    padding: 15px;
+}
+
+.topoLink {
+    padding: 0 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.globo {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #71A2E9;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.g1 {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #D0635B;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ge {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #67B768;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.gshow {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #FF8F2A;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.play {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #FC7197;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.receitas {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #C076B2;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.tv {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #62C9ED;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.menuFixo {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #8828FE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 0 60px;
+}
+
+input {
+    background-color: #7422D8;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#buscar::placeholder {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.menuEsquerdo {
+    display: flex;
+    flex-direction: row ;
+}
+
+.menuEsquerdo p {
+    font-weight: 700;
+}
+
+.menu {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.gshow {
+    width: 150px;
+}
+
+.multi {
+    font-size: 28px;
+    text-align: center;
+}
